@@ -1,0 +1,301 @@
+MAP MAP01 {
+    levelname = "Attack"
+    levelpic = "CWILV00"
+    next = "MAP02"
+    nextsecret = "MAP02"
+    skytexture = "SKY1"
+    music = "D_RUNNIN"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP02 {
+    levelname = "Canyon"
+    levelpic = "CWILV01"
+    next = "MAP03"
+    nextsecret = "MAP03"
+    skytexture = "SKY1"
+    music = "D_STALKS"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP03 {
+    levelname = "The Catwalk"
+    levelpic = "CWILV02"
+    next = "MAP04"
+    nextsecret = "MAP04"
+    skytexture = "SKY1"
+    music = "D_COUNTD"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP04 {
+    levelname = "The Combine"
+    levelpic = "CWILV03"
+    next = "MAP05"
+    nextsecret = "MAP05"
+    skytexture = "TSKYCOMB"
+    music = "D_BETWEE"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP05 {
+    levelname = "The Fistula"
+    levelpic = "CWILV04"
+    next = "MAP06"
+    nextsecret = "MAP06"
+    skytexture = "SKY1"
+    music = "D_DOOM"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP06 {
+    levelname = "The Garrison"
+    levelpic = "CWILV05"
+    next = "MAP07"
+    nextsecret = "MAP07"
+    skytexture = "SKY1"
+    music = "D_THE_DA"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP07 {
+    levelname = "Titan Manor"
+    levelpic = "CWILV06"
+    next = "MAP08"
+    nextsecret = "MAP08"
+    skytexture = "TSKYTITA"
+    music = "D_SHAWN"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP08 {
+    levelname = "Paradox"
+    levelpic = "CWILV07"
+    next = "MAP09"
+    nextsecret = "MAP09"
+    skytexture = "SKY1"
+    music = "D_DDTBLU"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP09 {
+    levelname = "Subspace"
+    levelpic = "CWILV08"
+    next = "MAP10"
+    nextsecret = "MAP10"
+    skytexture = "SKY1"
+    music = "D_IN_CIT"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP10 {
+    levelname = "Subterra"
+    levelpic = "CWILV09"
+    next = "MAP11"
+    nextsecret = "MAP11"
+    skytexture = "SKY1"
+    music = "D_DEAD"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP11 {
+    levelname = "Trapped on Titan"
+    levelpic = "CWILV10"
+    next = "MAP12"
+    nextsecret = "MAP12"
+    skytexture = "TSKYTITA"
+    music = "D_STLKS2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP12 {
+    levelname = "Virgil's Lead"
+    levelpic = "CWILV11"
+    next = "MAP13"
+    nextsecret = "MAP13"
+    skytexture = "TSKYSLEE"
+    music = "D_THEDA2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP13 {
+    levelname = "Minos' Judgement"
+    levelpic = "CWILV12"
+    next = "MAP14"
+    nextsecret = "MAP14"
+    skytexture = "TSKYSLEE"
+    music = "D_DOOM2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP14 {
+    levelname = "Bloodsea Keep"
+    levelpic = "CWILV13"
+    next = "MAP15"
+    nextsecret = "MAP15"
+    skytexture = "SKY1"
+    music = "D_DDTBL2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = Fatso, 38, 666
+    bossaction = Arachnotron, 30, 667
+}
+
+MAP MAP15 {
+    levelname = "Mephisto's Maosoleum"
+    levelpic = "CWILV14"
+    next = "MAP16"
+    nextsecret = "MAP16"
+    skytexture = "SKY1"
+    music = "D_RUNNI2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = Fatso, 38, 666
+    bossaction = Arachnotron, 30, 667
+}
+
+MAP MAP16 {
+    levelname = "Nessus"
+    levelpic = "CWILV15"
+    next = "MAP17"
+    nextsecret = "MAP17"
+    skytexture = "TSKYSLEE"
+    music = "D_DEAD2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = Fatso, 38, 666
+    bossaction = Arachnotron, 30, 667
+}
+
+MAP MAP17 {
+    levelname = "Geryon"
+    levelpic = "CWILV16"
+    next = "MAP18"
+    nextsecret = "MAP18"
+    skytexture = "TSKYSLEE"
+    music = "D_STLKS3"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP18 {
+    levelname = "Vesperas"
+    levelpic = "CWILV17"
+    next = "MAP19"
+    nextsecret = "MAP19"
+    skytexture = "TSKYSLEE"
+    music = "D_ROMERO"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP19 {
+    levelname = "Black Tower"
+    levelpic = "CWILV18"
+    next = "MAP20"
+    nextsecret = "MAP20"
+    skytexture = "SKY3"
+    music = "D_SHAWN2"
+    partime = 15
+    intertext = clear
+    intertextsecret = clear
+    bossaction = clear
+}
+
+MAP MAP20 {
+    levelname = "The Express Elevator to Hell"
+    levelpic = "CWILV19"
+    next = "MAP22"
+    nextsecret = "MAP21"
+    skytexture = "SKY3"
+    music = "D_MESSAG"
+    partime = 15
+    intertext = "CONGRATULATIONS YOU HAVE FINISHED...",
+    "",
+"MOST OF THE MASTER LEVELS",
+"",
+"You have ventured through the most",
+"twisted levels that hell had to",
+"offer and you have survived.",
+"",
+"But alas the demons laugh at you",
+"since you have shown cowardice and didn't",
+"reach the most hideous level",
+"they had made for you."
+    intertextsecret = clear
+    interbackdrop = "RROCK14"
+    bossaction = clear
+}
+
+MAP MAP21 {
+    levelname = "Bad Dream"
+    levelpic = "CWILV20"
+    next = "MAP22"
+    nextsecret = "MAP22"
+    endcast = true
+    skytexture = "SKY3"
+    music = "D_COUNT2"
+    partime = 15
+    intertext = "CONGRATULATIONS YOU HAVE FINISHED...",
+    "",
+"ALL THE MASTER LEVELS",
+"",
+"You have ventured through all the",
+"twisted levels that hell had to",
+"offer and you have survived.",
+"",
+"The Flames of rage flow through",
+"your veins, you are ready",
+"for more - but you don't know where",
+"to find more when the demons hide",
+"like cowards when they see you."
+    intertextsecret = clear
+    interbackdrop = "RROCK14"
+    bossaction = clear
+}

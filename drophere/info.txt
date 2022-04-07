@@ -1,0 +1,1 @@
+Place DOOM2.WAD and each master level WAD in this directory.
