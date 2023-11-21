@@ -1,0 +1,45 @@
+Teethpack
+Packer for the Master Levels for Doom II 
+
+Teethpack combines all the data for the Master Levels for Doom II into a single WAD file compatible with all source ports that support UMAPINFO (https://doomwiki.org/wiki/UMAPINFO). The levels are arranged in the Doom Classic Complete order.
+
+INSTRUCTIONS FOR USE
+
+1. Obtain or compile a release archive of Teethpack, then extract it to a new directory.
+2. Copy the DOOM2.WAD IWAD and all of the Master Levels PWADs into the "drophere" directory. After doing so, it should contain the following files, provided by you:
+    ATTACK.WAD
+    BLACKTWR.WAD
+    BLOODSEA.WAD
+    CANYON.WAD
+    CATWALK.WAD
+    COMBINE.WAD
+    DOOM2.WAD
+    FISTULA.WAD
+    GARRISON.WAD
+    GERYON.WAD
+    MANOR.WAD
+    MEPHISTO.WAD
+    MINOS.WAD
+    NESSUS.WAD
+    PARADOX.WAD
+    SUBSPACE.WAD
+    SUBTERRA.WAD
+    TEETH.WAD
+    TTRAP.WAD
+    VESPERAS.WAD
+    VIRGIL.WAD
+3. Run teethpack.bat (on Windows) or teethpack.sh (on Linux). If you've done everything correctly, UMASTER.WAD will appear in the "output" directory.
+4. Load UMASTER.WAD as a PWAD in your (UMAPINFO-compatible) sourceport of choice to play.
+5. (optional, but recommended) The Master Levels for Doom II 25th Anniversary MIDI Pack is compatible with the PWAD produced by this program. Simply load ml_midipack_crispydoom.wad alongside UMASTER.WAD. 
+
+DEVELOPMENT INSTRUCTIONS
+
+To package a release build, you will need a recent version of Python 3 (3.10 or later recommended) and the following Python packages (in addition to their dependencies):
+
+omgifol (currently v0.4.0)
+pillow
+pyinstaller (must be in PATH)
+
+You will also need either a recent version of Windows 10 (to use the built-in tar binary) or a Linux system with tar.
+
+Then, run build.bat (Windows) or build.sh (Linux) to create the release archive dist/teethpack.{zip,tar.gz}

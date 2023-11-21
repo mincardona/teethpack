@@ -8,7 +8,7 @@ import PIL
 
 CWILV_MAX = 20
 
-# Imports the sky patch from the patch object "old_patch_obj" into the wad
+# Imports the sky patch from the patch object "old_patch_obj" into the wad
 # "new_wad" with the texture edit object "textures". "new_pname" is the new patch name
 # and "new_tname" is the new texture name.
 def import_std_sky(new_wad, textures, old_patch_obj, new_pname, new_tname):
