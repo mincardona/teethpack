@@ -177,7 +177,7 @@ MAP MAP14 {
     partime = 15
     intertext = clear
     intertextsecret = clear
-    bossaction = Fatso, 38, 666
+    bossaction = Fatso, 23, 666
     bossaction = Arachnotron, 30, 667
 }
 
@@ -191,7 +191,7 @@ MAP MAP15 {
     partime = 15
     intertext = clear
     intertextsecret = clear
-    bossaction = Fatso, 38, 666
+    bossaction = Fatso, 23, 666
     bossaction = Arachnotron, 30, 667
 }
 
